@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import "./App.css";
 
 export function History() {
   const containerRef = useRef(null);
@@ -25,17 +24,13 @@ export function History() {
   }, []);
 
   return (
-    <div className="history-container">
-      <div className="image-container" ref={containerRef}>
-        <img src="/historyIMG.png" alt="History Image" className="img1" />
-        <img src="/pig.png" alt="Pig Image" className="img2" />
+    <div className="text-center flex flex-col items-center p-4">
+      <div className="relative w-11/12 md:w-4/5 flex justify-center flex-row-reverse" ref={containerRef}>
+        <img src="/historyIMG.png" alt="History Image" className="img1 w-1/2 md:w-1/4 transition-transform duration-75" />
+        <img src="/pig.png" alt="Pig Image" className="img2 w-1/2 md:w-1/3 transition-transform duration-75" />
       </div>
-      <p>
-        Con una sólida experiencia de 21 años, nos enorgullece destacarnos como
-        especialistas en la venta de carne de cerdo. Nuestra dedicación a lo
-        largo de las décadas nos ha permitido perfeccionar la calidad y frescura
-        de nuestros productos. Suministramos cortes que reflejan
-        nuestro compromiso con la excelencia.
+      <p className="text-white w-11/12 md:w-4/5 mt-10">
+        Con una sólida experiencia de 21 años, nos enorgullece destacarnos como especialistas en la venta de carne de cerdo. Nuestra dedicación a lo largo de las décadas nos ha permitido perfeccionar la calidad y frescura de nuestros productos. Suministramos cortes que reflejan nuestro compromiso con la excelencia.
       </p>
     </div>
   );
