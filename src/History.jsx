@@ -27,8 +27,8 @@ export function History() {
   return (
     <div className="history-container">
       <div className="image-container" ref={containerRef}>
-        <img src="../src/img/historyIMG.png" alt="History Image" className="img1" />
-        <img src="../src/img/pig.png" alt="Pig Image" className="img2" />
+        <img src="/historyIMG.png" alt="History Image" className="img1" />
+        <img src="/pig.png" alt="Pig Image" className="img2" />
       </div>
       <p>
         Con una sólida experiencia de 21 años, nos enorgullece destacarnos como

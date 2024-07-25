@@ -9,7 +9,7 @@ export function Catalogo() {
     <div className="Catalog" id="Catalogo">
     <Divider text="Catálogo"/>
     <div className="componetCatalog">
-    <ContentC text="Costillas de cerdo" ruta="../src/img/costillas.png"/>
+    <ContentC text="Costillas de cerdo" ruta="/costillas.png"/>
     <ContentC text="Chuleta de lomo"/>
     <ContentC text="Chuleta de pierna"/>
     <ContentC text="Chuleta de bondiola"/>

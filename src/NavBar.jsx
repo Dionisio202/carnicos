@@ -9,7 +9,7 @@ export function NavBar() {
         <nav className="NavBar">
           <div className="logo-Content">
           <div className="logo-navBar logo-hover">
-            <img src="../src/img/Logo_P.png" alt="Logo" />
+            <img src="/Logo_P.png" alt="Logo" />
           </div>
           <span className="logo-text">Cárnicos Paty</span>
 
